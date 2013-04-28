@@ -6,8 +6,7 @@ import org.newdawn.slick.state.GameState;
 import org.newdawn.slick.state.StateBasedGame;
 
 public class Play implements GameState {
-    Animation player, turret;
-    Animation enemy, enemyTurret;
+    Animation player, turret;    Animation enemy, enemyTurret;
     Animation smoke, explosion;
 
     int[] duration = {200, 200, 200, 200};

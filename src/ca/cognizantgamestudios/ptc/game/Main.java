@@ -16,7 +16,6 @@ public class Main extends StateBasedGame {
         this.addState(new Splash());
         this.addState(new Menu());
         this.addState(new Play());
-        this.addState(new Server());
     }
 
     public static void main(String[] args) throws SlickException {
